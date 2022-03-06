@@ -1,3 +1,14 @@
+def integer_checker(question):
+    error = "\nSorry, you must enter an integer\n"
+    number = ""
+    while not number:
+        try:
+            number = int(input(question))
+            return number
+        except ValueError:
+            print(error)
+
+
 car_list = [(1, "Suzuki Van", 2), (2, "Toyota Corolla", 4),
                 (3, "Honda CRV", 4), (4, "Suzuki Swift", 4),
                 (5, "Mitsibishi Airtrek", 4), (6, "Nissan DC Ute", 4),
@@ -6,7 +17,7 @@ car_list = [(1, "Suzuki Van", 2), (2, "Toyota Corolla", 4),
 booked = []
 valid = False
 while not valid:
-    seats_needed = int(input("How many seats do you need? "))
+    seats_needed = integer_checker("How many seats do you need? ")
     if seats_needed == -1:
         for i in booked:
             print("Name:", i[0], " Car number:", i[1][0], " Car type:", i[1][1])
@@ -17,7 +28,7 @@ while not valid:
                 print(i[0], i[1], i[2], "--not enough space--")
             else:
                 print(i[0], i[1], i[2])
-        car = int(input("Enter vehicle number you would like:"))
+        car = integer_checker("Enter vehicle number you would like:")
         name = input("Enter your name")
         for i in booked:
             print(i)

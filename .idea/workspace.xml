@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EXCERSIZES" />
   </component>
-  <component name="RunManager" selected="Python.Project6">
+  <component name="RunManager" selected="Python.Project5Speeding">
     <configuration name="Project 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PROJECT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Project5Speeding" />
         <item itemvalue="Python.Project6" />
         <item itemvalue="Python.testing" />
-        <item itemvalue="Python.Project5Speeding" />
         <item itemvalue="Python.project4Absences" />
         <item itemvalue="Python.Project 3" />
       </list>
